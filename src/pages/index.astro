@@ -10,9 +10,8 @@ const posts = await getPosts(MAX_POSTS)
 ---
 
 <BaseLayout title='Home'>
-	<TitlePage title='Blog Title' />
+	<TitlePage title='Maria Feia Vampira blog' description='Blog Description' />
 	<ListCategories />
-
 	<div>
 		<h2 class='text-lg font-medium tracking-wide text-end'>Latest Posts</h2>
 		<ListPosts FirstBig={true} posts={posts} />
